@@ -1,0 +1,62 @@
+/* Modals */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  margin: 15% auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+h1, h2, h4, .card-title {
+  font-family: 'Pacifico', cursive;
+}
+
+
+/* styles.css */
+.hero-section {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Background section to cover both Hero and Hot Sellers */
+.background-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional overlay for better text visibility */
+  color: #fff;
+}
+
+.hero-content {
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Optional: Footer Styles */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
